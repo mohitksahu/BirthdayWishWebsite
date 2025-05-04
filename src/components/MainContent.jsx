@@ -26,7 +26,7 @@ export default function MainContent() {
                     className="w-44 h-44 mb-8 rounded-full overflow-hidden shadow-md"
                 >
                     <Image
-                        src="https://images.pexels.com/photos/371285/pexels-photo-371285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        src="/images/IMG_20250504_162130.jpg"
                         alt="Heart icon"
                         priority={true}
                         width={176}
@@ -38,7 +38,7 @@ export default function MainContent() {
                     Our Special Story
                 </h1>
                 <div className="text-2xl md:text-3xl text-purple-700 mb-8 relative z-10">
-                    Hey Cutiepie, you are<br />my<FlipWords words={['sunshine', 'soulmate', 'everything', 'love', 'world']} className="text-nowrap" />
+                    Happy Birthdaaay, <br />my<FlipWords words={['sunshine', 'soulmate', 'everything', 'love', 'world']} className="text-nowrap" />
                 </div>
                 <motion.button
                     whileHover={{ scale: 1.05 }}

@@ -30,7 +30,7 @@ export default function Home() {
     <AnimatePresence>
       <FallingHearts key='falling-stars' />
       {/* You can use a background song if you want, just uncomment this component and and update the BackgroundMusic Component with any other other song */}
-      {/* <BackgroundMusic key='bg-music' isMusicPlaying={isMusicPlaying} setIsMusicPlaying={setIsMusicPlaying} /> */}
+      { <BackgroundMusic key='bg-music' isMusicPlaying={isMusicPlaying} setIsMusicPlaying={setIsMusicPlaying} /> }
       {showMainContent ?
         <MainContent /> :
         <Cards setMusicPlaying={setIsMusicPlaying} handleShowMainContent={handleShowMainContent} />
