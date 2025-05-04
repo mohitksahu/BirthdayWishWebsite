@@ -7,7 +7,6 @@ Welcome to A Special Journey! This project is a collection of memorable moments 
 ## Features
 
 - **Interactive Cards**: A series of beautifully designed cards that display special moments.
-- **Secret Card**: There is a hidden card in the project. To unlock it, enter the code `123456`. You can modify this code according to your preference.
 - **Customizable Content**: Feel free to customize the content, colors, images, background music and text. This project is designed to be flexible and easily tailored to suit your needs.
 
 ---
@@ -55,15 +54,5 @@ Welcome to A Special Journey! This project is a collection of memorable moments 
 - **Colors**: Update the colors in `tailwind.config.js` or modify individual Tailwind classes in the JSX components to match your desired theme.
 - **Images**: Replace the image URLs in the components with your own images to add a personal touch.
 
-## 🌐 Connect with Me
 
-Follow for more such creative and code-based content!
-
-- 📸 **Instagram**: [@anujbuilds](https://instagram.com/anujbuilds)
-- 🎥 **YouTube**: [@anujbuilds](https://youtube.com/@anujbuilds)
-- 🐦 **Twitter/X**: [@anujbuilds](https://twitter.com/anujbuilds)
-- 💼 **LinkedIn**: [Anuj Chaudhary](https://linkedin.com/in/anujchaudhary549)
-
----
-
-Thanks for checking out this project! If you liked it, consider giving it a ⭐️ on GitHub and sharing the reel ❤️
+Thanks for checking out this project! If you liked it, consider giving it a ⭐️ on GitHub ❤️
