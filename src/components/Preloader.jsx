@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import BackgroundMusic from "@/components/BackgroundMusic";
 
 function getTimeLeft(endDate) {
   const now = new Date()
@@ -16,6 +17,7 @@ function getTimeLeft(endDate) {
 
 const Preloader = ({ endDate, onFinish }) => {
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(endDate))
+  const [isMusicPlaying, setIsMusicPlaying] = useState(false)
 
   useEffect(() => {
     if (timeLeft.finished) {
@@ -29,6 +31,9 @@ const Preloader = ({ endDate, onFinish }) => {
   }, [timeLeft, endDate, onFinish])
 
   return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80">
+      <BackgroundMusic key='bg-music' isMusicPlaying={isMusicPlaying} setIsMusicPlaying={setIsMusicPlaying} />
+      
     <div className="flex flex-col items-center justify-center h-screen bg-purple-100">
       <div className="text-4xl font-bold text-purple-700 mb-2">
         Loading... <span className="inline-block align-middle">⏳</span>
@@ -40,6 +45,7 @@ const Preloader = ({ endDate, onFinish }) => {
         <span className="bg-white bg-opacity-70 p-2 rounded shadow-md">{String(timeLeft.seconds).padStart(2, '0')}s</span>
       </div>
     </div>
+   </div> 
   )
 }
 
