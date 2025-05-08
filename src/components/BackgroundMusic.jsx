@@ -34,7 +34,7 @@ export default function BackgroundMusic({ isMusicPlaying, setIsMusicPlaying }) {
             className="fixed top-4 right-4 z-50">
             {/* If you want to add background song then place the song in /public/audio folder and change the audio src accordingly */}
             <audio ref={audioRef} loop preload="auto">
-                <source src="/audio/PalPal.mp3" type="audio/mpeg" />
+                <source src="/audio/YouMayBe.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
             </audio>
             <button
