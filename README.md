@@ -55,4 +55,4 @@ Welcome to A Special Journey! This project is a collection of memorable moments 
 - **Images**: Replace the image URLs in the components with your own images to add a personal touch.
 
 
-Thanks for checking out this project! If you liked it, consider giving it a ⭐️ on GitHub ❤️
+Thanks for checking out this project! If you liked it, consider giving it a ⭐️ on GitHub` ❤️
