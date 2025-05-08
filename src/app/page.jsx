@@ -23,7 +23,7 @@ export default function Home() {
     }, 2000); // Match duration of overlay animation
   };
 
-  if (preloading) return <Preloader endDate="2025-05-09T00:00:00" onFinish={() => setPreloading(false)} />
+  if (preloading) return <Preloader endDate="2025-05-09T18:00:00" onFinish={() => setPreloading(false)} />
   if (loading) return <Loader key="loader" onFinish={() => setLoading(false)} />;
 
   return (
